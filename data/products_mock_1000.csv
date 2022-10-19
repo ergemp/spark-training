@@ -1,0 +1,1001 @@
+product_id,product_name,category,subcategory
+000049,Shoes A,Fashion,Women Textile
+000040,Tire A,Automotive,Tires
+000050,Backpack A,Fashion,Bags
+000016,Dinner Table A,Home & Living,Furniture
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000022,Lipstick A,Cosmetics,Makeup
+000037,DVD A,Music,DVD
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000026,Tent B,Sport & Outdoor,Outdoor
+000042,Car Tape A,Automotive,Sound Systems
+000041,Tire B,Automotive,Tires
+000018,Rondo A,Home & Living,Kitchen
+000028,Running Belt A,Sport & Outdoor,Fitness
+000003,Monitor A,Electronics,Computer
+000011,Display B,Electronics,Display
+000042,Car Tape A,Automotive,Sound Systems
+000038,CD A,Music,CD
+000020,Parfume A,Cosmetics,Parfume
+000003,Monitor A,Electronics,Computer
+000048,Socks A,Fashion,Women Textile
+000031,Sail B,Sport & Outdoor,Water Sports
+000043,Denim A,Fashion,Men Textile
+000001,Laptop A,Electronics,Computer
+000005,Phone B,Electronics,Smart Phone
+000006,TV A,Electronics,TV
+000011,Display B,Electronics,Display
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000013,Cinema Display A,Electronics,Display
+000033,Book A,Book,Book
+000048,Socks A,Fashion,Women Textile
+000026,Tent B,Sport & Outdoor,Outdoor
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000046,Trousers A,Fashion,Women Textile
+000037,DVD A,Music,DVD
+000016,Dinner Table A,Home & Living,Furniture
+000037,DVD A,Music,DVD
+000034,Book B,Book,Book
+000050,Backpack A,Fashion,Bags
+000049,Shoes A,Fashion,Women Textile
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000044,Shirt A,Fashion,Men Textile
+000033,Book A,Book,Book
+000017,Bed A,Home & Living,Furniture
+000049,Shoes A,Fashion,Women Textile
+000045,T-Shirt A,Fashion,Men Textile
+000028,Running Belt A,Sport & Outdoor,Fitness
+000008,TV C,Electronics,TV
+000045,T-Shirt A,Fashion,Men Textile
+000050,Backpack A,Fashion,Bags
+000013,Cinema Display A,Electronics,Display
+000007,TV B,Electronics,TV
+000045,T-Shirt A,Fashion,Men Textile
+000048,Socks A,Fashion,Women Textile
+000026,Tent B,Sport & Outdoor,Outdoor
+000009,Speaker A,Electronics,Sound
+000044,Shirt A,Fashion,Men Textile
+000021,Parfume B,Cosmetics,Parfume
+000044,Shirt A,Fashion,Men Textile
+000036,Vinyl A,Music,Vinyl
+000040,Tire A,Automotive,Tires
+000028,Running Belt A,Sport & Outdoor,Fitness
+000025,Tent A,Sport & Outdoor,Outdoor
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000021,Parfume B,Cosmetics,Parfume
+000008,TV C,Electronics,TV
+000007,TV B,Electronics,TV
+000005,Phone B,Electronics,Smart Phone
+000026,Tent B,Sport & Outdoor,Outdoor
+000049,Shoes A,Fashion,Women Textile
+000033,Book A,Book,Book
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000029,Board A,Sport & Outdoor,Water Sports
+000042,Car Tape A,Automotive,Sound Systems
+000042,Car Tape A,Automotive,Sound Systems
+000036,Vinyl A,Music,Vinyl
+000004,Phone A,Electronics,Smart Phone
+000042,Car Tape A,Automotive,Sound Systems
+000044,Shirt A,Fashion,Men Textile
+000048,Socks A,Fashion,Women Textile
+000017,Bed A,Home & Living,Furniture
+000038,CD A,Music,CD
+000009,Speaker A,Electronics,Sound
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000031,Sail B,Sport & Outdoor,Water Sports
+000043,Denim A,Fashion,Men Textile
+000003,Monitor A,Electronics,Computer
+000003,Monitor A,Electronics,Computer
+000034,Book B,Book,Book
+000025,Tent A,Sport & Outdoor,Outdoor
+000012,Alarm A,Electronics,Home Appliance
+000033,Book A,Book,Book
+000030,Sail A,Sport & Outdoor,Water Sports
+000003,Monitor A,Electronics,Computer
+000008,TV C,Electronics,TV
+000013,Cinema Display A,Electronics,Display
+000004,Phone A,Electronics,Smart Phone
+000016,Dinner Table A,Home & Living,Furniture
+000002,Desktop A,Electronics,Computer
+000025,Tent A,Sport & Outdoor,Outdoor
+000020,Parfume A,Cosmetics,Parfume
+000018,Rondo A,Home & Living,Kitchen
+000035,Magazine A,Book,Magazine
+000014,Flowers A,Home & Living,Decoration
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000050,Backpack A,Fashion,Bags
+000038,CD A,Music,CD
+000022,Lipstick A,Cosmetics,Makeup
+000050,Backpack A,Fashion,Bags
+000033,Book A,Book,Book
+000001,Laptop A,Electronics,Computer
+000038,CD A,Music,CD
+000025,Tent A,Sport & Outdoor,Outdoor
+000013,Cinema Display A,Electronics,Display
+000049,Shoes A,Fashion,Women Textile
+000029,Board A,Sport & Outdoor,Water Sports
+000041,Tire B,Automotive,Tires
+000022,Lipstick A,Cosmetics,Makeup
+000026,Tent B,Sport & Outdoor,Outdoor
+000026,Tent B,Sport & Outdoor,Outdoor
+000044,Shirt A,Fashion,Men Textile
+000038,CD A,Music,CD
+000044,Shirt A,Fashion,Men Textile
+000026,Tent B,Sport & Outdoor,Outdoor
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000045,T-Shirt A,Fashion,Men Textile
+000044,Shirt A,Fashion,Men Textile
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000022,Lipstick A,Cosmetics,Makeup
+000009,Speaker A,Electronics,Sound
+000040,Tire A,Automotive,Tires
+000028,Running Belt A,Sport & Outdoor,Fitness
+000043,Denim A,Fashion,Men Textile
+000031,Sail B,Sport & Outdoor,Water Sports
+000042,Car Tape A,Automotive,Sound Systems
+000014,Flowers A,Home & Living,Decoration
+000049,Shoes A,Fashion,Women Textile
+000011,Display B,Electronics,Display
+000017,Bed A,Home & Living,Furniture
+000039,Top Box A,Automotive,Accesories
+000049,Shoes A,Fashion,Women Textile
+000034,Book B,Book,Book
+000018,Rondo A,Home & Living,Kitchen
+000028,Running Belt A,Sport & Outdoor,Fitness
+000036,Vinyl A,Music,Vinyl
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000038,CD A,Music,CD
+000046,Trousers A,Fashion,Women Textile
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000026,Tent B,Sport & Outdoor,Outdoor
+000008,TV C,Electronics,TV
+000039,Top Box A,Automotive,Accesories
+000045,T-Shirt A,Fashion,Men Textile
+000026,Tent B,Sport & Outdoor,Outdoor
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000030,Sail A,Sport & Outdoor,Water Sports
+000009,Speaker A,Electronics,Sound
+000003,Monitor A,Electronics,Computer
+000034,Book B,Book,Book
+000021,Parfume B,Cosmetics,Parfume
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000035,Magazine A,Book,Magazine
+000048,Socks A,Fashion,Women Textile
+000025,Tent A,Sport & Outdoor,Outdoor
+000049,Shoes A,Fashion,Women Textile
+000018,Rondo A,Home & Living,Kitchen
+000029,Board A,Sport & Outdoor,Water Sports
+000040,Tire A,Automotive,Tires
+000034,Book B,Book,Book
+000014,Flowers A,Home & Living,Decoration
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000026,Tent B,Sport & Outdoor,Outdoor
+000050,Backpack A,Fashion,Bags
+000019,Soap A,Home & Living,Bathroom
+000047,Shirt A,Fashion,Women Textile
+000033,Book A,Book,Book
+000039,Top Box A,Automotive,Accesories
+000033,Book A,Book,Book
+000004,Phone A,Electronics,Smart Phone
+000019,Soap A,Home & Living,Bathroom
+000014,Flowers A,Home & Living,Decoration
+000034,Book B,Book,Book
+000041,Tire B,Automotive,Tires
+000022,Lipstick A,Cosmetics,Makeup
+000009,Speaker A,Electronics,Sound
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000002,Desktop A,Electronics,Computer
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000031,Sail B,Sport & Outdoor,Water Sports
+000034,Book B,Book,Book
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000029,Board A,Sport & Outdoor,Water Sports
+000006,TV A,Electronics,TV
+000046,Trousers A,Fashion,Women Textile
+000034,Book B,Book,Book
+000039,Top Box A,Automotive,Accesories
+000015,Coach A,Home & Living,Furniture
+000013,Cinema Display A,Electronics,Display
+000040,Tire A,Automotive,Tires
+000030,Sail A,Sport & Outdoor,Water Sports
+000001,Laptop A,Electronics,Computer
+000038,CD A,Music,CD
+000019,Soap A,Home & Living,Bathroom
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000037,DVD A,Music,DVD
+000046,Trousers A,Fashion,Women Textile
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000034,Book B,Book,Book
+000028,Running Belt A,Sport & Outdoor,Fitness
+000033,Book A,Book,Book
+000048,Socks A,Fashion,Women Textile
+000009,Speaker A,Electronics,Sound
+000049,Shoes A,Fashion,Women Textile
+000011,Display B,Electronics,Display
+000037,DVD A,Music,DVD
+000022,Lipstick A,Cosmetics,Makeup
+000008,TV C,Electronics,TV
+000020,Parfume A,Cosmetics,Parfume
+000007,TV B,Electronics,TV
+000034,Book B,Book,Book
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000017,Bed A,Home & Living,Furniture
+000046,Trousers A,Fashion,Women Textile
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000021,Parfume B,Cosmetics,Parfume
+000025,Tent A,Sport & Outdoor,Outdoor
+000035,Magazine A,Book,Magazine
+000015,Coach A,Home & Living,Furniture
+000006,TV A,Electronics,TV
+000003,Monitor A,Electronics,Computer
+000034,Book B,Book,Book
+000047,Shirt A,Fashion,Women Textile
+000036,Vinyl A,Music,Vinyl
+000013,Cinema Display A,Electronics,Display
+000002,Desktop A,Electronics,Computer
+000010,Display A,Electronics,Display
+000013,Cinema Display A,Electronics,Display
+000009,Speaker A,Electronics,Sound
+000028,Running Belt A,Sport & Outdoor,Fitness
+000020,Parfume A,Cosmetics,Parfume
+000041,Tire B,Automotive,Tires
+000040,Tire A,Automotive,Tires
+000015,Coach A,Home & Living,Furniture
+000046,Trousers A,Fashion,Women Textile
+000014,Flowers A,Home & Living,Decoration
+000035,Magazine A,Book,Magazine
+000019,Soap A,Home & Living,Bathroom
+000026,Tent B,Sport & Outdoor,Outdoor
+000029,Board A,Sport & Outdoor,Water Sports
+000003,Monitor A,Electronics,Computer
+000031,Sail B,Sport & Outdoor,Water Sports
+000038,CD A,Music,CD
+000022,Lipstick A,Cosmetics,Makeup
+000015,Coach A,Home & Living,Furniture
+000038,CD A,Music,CD
+000048,Socks A,Fashion,Women Textile
+000020,Parfume A,Cosmetics,Parfume
+000035,Magazine A,Book,Magazine
+000046,Trousers A,Fashion,Women Textile
+000002,Desktop A,Electronics,Computer
+000015,Coach A,Home & Living,Furniture
+000044,Shirt A,Fashion,Men Textile
+000047,Shirt A,Fashion,Women Textile
+000001,Laptop A,Electronics,Computer
+000005,Phone B,Electronics,Smart Phone
+000033,Book A,Book,Book
+000006,TV A,Electronics,TV
+000047,Shirt A,Fashion,Women Textile
+000026,Tent B,Sport & Outdoor,Outdoor
+000006,TV A,Electronics,TV
+000025,Tent A,Sport & Outdoor,Outdoor
+000006,TV A,Electronics,TV
+000006,TV A,Electronics,TV
+000050,Backpack A,Fashion,Bags
+000002,Desktop A,Electronics,Computer
+000010,Display A,Electronics,Display
+000030,Sail A,Sport & Outdoor,Water Sports
+000029,Board A,Sport & Outdoor,Water Sports
+000035,Magazine A,Book,Magazine
+000046,Trousers A,Fashion,Women Textile
+000015,Coach A,Home & Living,Furniture
+000007,TV B,Electronics,TV
+000045,T-Shirt A,Fashion,Men Textile
+000007,TV B,Electronics,TV
+000003,Monitor A,Electronics,Computer
+000031,Sail B,Sport & Outdoor,Water Sports
+000016,Dinner Table A,Home & Living,Furniture
+000001,Laptop A,Electronics,Computer
+000029,Board A,Sport & Outdoor,Water Sports
+000048,Socks A,Fashion,Women Textile
+000040,Tire A,Automotive,Tires
+000042,Car Tape A,Automotive,Sound Systems
+000019,Soap A,Home & Living,Bathroom
+000040,Tire A,Automotive,Tires
+000048,Socks A,Fashion,Women Textile
+000047,Shirt A,Fashion,Women Textile
+000017,Bed A,Home & Living,Furniture
+000040,Tire A,Automotive,Tires
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000045,T-Shirt A,Fashion,Men Textile
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000003,Monitor A,Electronics,Computer
+000014,Flowers A,Home & Living,Decoration
+000018,Rondo A,Home & Living,Kitchen
+000008,TV C,Electronics,TV
+000036,Vinyl A,Music,Vinyl
+000046,Trousers A,Fashion,Women Textile
+000003,Monitor A,Electronics,Computer
+000036,Vinyl A,Music,Vinyl
+000034,Book B,Book,Book
+000035,Magazine A,Book,Magazine
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000001,Laptop A,Electronics,Computer
+000050,Backpack A,Fashion,Bags
+000025,Tent A,Sport & Outdoor,Outdoor
+000022,Lipstick A,Cosmetics,Makeup
+000016,Dinner Table A,Home & Living,Furniture
+000017,Bed A,Home & Living,Furniture
+000033,Book A,Book,Book
+000018,Rondo A,Home & Living,Kitchen
+000021,Parfume B,Cosmetics,Parfume
+000026,Tent B,Sport & Outdoor,Outdoor
+000033,Book A,Book,Book
+000036,Vinyl A,Music,Vinyl
+000003,Monitor A,Electronics,Computer
+000006,TV A,Electronics,TV
+000001,Laptop A,Electronics,Computer
+000021,Parfume B,Cosmetics,Parfume
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000030,Sail A,Sport & Outdoor,Water Sports
+000018,Rondo A,Home & Living,Kitchen
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000041,Tire B,Automotive,Tires
+000017,Bed A,Home & Living,Furniture
+000045,T-Shirt A,Fashion,Men Textile
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000040,Tire A,Automotive,Tires
+000034,Book B,Book,Book
+000030,Sail A,Sport & Outdoor,Water Sports
+000004,Phone A,Electronics,Smart Phone
+000049,Shoes A,Fashion,Women Textile
+000004,Phone A,Electronics,Smart Phone
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000004,Phone A,Electronics,Smart Phone
+000014,Flowers A,Home & Living,Decoration
+000019,Soap A,Home & Living,Bathroom
+000037,DVD A,Music,DVD
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000040,Tire A,Automotive,Tires
+000036,Vinyl A,Music,Vinyl
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000011,Display B,Electronics,Display
+000019,Soap A,Home & Living,Bathroom
+000029,Board A,Sport & Outdoor,Water Sports
+000042,Car Tape A,Automotive,Sound Systems
+000039,Top Box A,Automotive,Accesories
+000018,Rondo A,Home & Living,Kitchen
+000029,Board A,Sport & Outdoor,Water Sports
+000050,Backpack A,Fashion,Bags
+000014,Flowers A,Home & Living,Decoration
+000031,Sail B,Sport & Outdoor,Water Sports
+000007,TV B,Electronics,TV
+000029,Board A,Sport & Outdoor,Water Sports
+000034,Book B,Book,Book
+000022,Lipstick A,Cosmetics,Makeup
+000049,Shoes A,Fashion,Women Textile
+000030,Sail A,Sport & Outdoor,Water Sports
+000021,Parfume B,Cosmetics,Parfume
+000018,Rondo A,Home & Living,Kitchen
+000040,Tire A,Automotive,Tires
+000012,Alarm A,Electronics,Home Appliance
+000002,Desktop A,Electronics,Computer
+000018,Rondo A,Home & Living,Kitchen
+000030,Sail A,Sport & Outdoor,Water Sports
+000014,Flowers A,Home & Living,Decoration
+000006,TV A,Electronics,TV
+000008,TV C,Electronics,TV
+000022,Lipstick A,Cosmetics,Makeup
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000040,Tire A,Automotive,Tires
+000022,Lipstick A,Cosmetics,Makeup
+000041,Tire B,Automotive,Tires
+000045,T-Shirt A,Fashion,Men Textile
+000013,Cinema Display A,Electronics,Display
+000037,DVD A,Music,DVD
+000035,Magazine A,Book,Magazine
+000038,CD A,Music,CD
+000014,Flowers A,Home & Living,Decoration
+000037,DVD A,Music,DVD
+000045,T-Shirt A,Fashion,Men Textile
+000035,Magazine A,Book,Magazine
+000004,Phone A,Electronics,Smart Phone
+000020,Parfume A,Cosmetics,Parfume
+000010,Display A,Electronics,Display
+000010,Display A,Electronics,Display
+000019,Soap A,Home & Living,Bathroom
+000013,Cinema Display A,Electronics,Display
+000014,Flowers A,Home & Living,Decoration
+000020,Parfume A,Cosmetics,Parfume
+000012,Alarm A,Electronics,Home Appliance
+000044,Shirt A,Fashion,Men Textile
+000036,Vinyl A,Music,Vinyl
+000043,Denim A,Fashion,Men Textile
+000018,Rondo A,Home & Living,Kitchen
+000012,Alarm A,Electronics,Home Appliance
+000017,Bed A,Home & Living,Furniture
+000016,Dinner Table A,Home & Living,Furniture
+000012,Alarm A,Electronics,Home Appliance
+000026,Tent B,Sport & Outdoor,Outdoor
+000037,DVD A,Music,DVD
+000014,Flowers A,Home & Living,Decoration
+000009,Speaker A,Electronics,Sound
+000035,Magazine A,Book,Magazine
+000031,Sail B,Sport & Outdoor,Water Sports
+000018,Rondo A,Home & Living,Kitchen
+000009,Speaker A,Electronics,Sound
+000050,Backpack A,Fashion,Bags
+000050,Backpack A,Fashion,Bags
+000014,Flowers A,Home & Living,Decoration
+000014,Flowers A,Home & Living,Decoration
+000050,Backpack A,Fashion,Bags
+000009,Speaker A,Electronics,Sound
+000048,Socks A,Fashion,Women Textile
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000007,TV B,Electronics,TV
+000009,Speaker A,Electronics,Sound
+000038,CD A,Music,CD
+000009,Speaker A,Electronics,Sound
+000038,CD A,Music,CD
+000029,Board A,Sport & Outdoor,Water Sports
+000011,Display B,Electronics,Display
+000010,Display A,Electronics,Display
+000039,Top Box A,Automotive,Accesories
+000004,Phone A,Electronics,Smart Phone
+000014,Flowers A,Home & Living,Decoration
+000003,Monitor A,Electronics,Computer
+000013,Cinema Display A,Electronics,Display
+000036,Vinyl A,Music,Vinyl
+000040,Tire A,Automotive,Tires
+000014,Flowers A,Home & Living,Decoration
+000044,Shirt A,Fashion,Men Textile
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000002,Desktop A,Electronics,Computer
+000025,Tent A,Sport & Outdoor,Outdoor
+000001,Laptop A,Electronics,Computer
+000040,Tire A,Automotive,Tires
+000044,Shirt A,Fashion,Men Textile
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000020,Parfume A,Cosmetics,Parfume
+000012,Alarm A,Electronics,Home Appliance
+000037,DVD A,Music,DVD
+000031,Sail B,Sport & Outdoor,Water Sports
+000018,Rondo A,Home & Living,Kitchen
+000004,Phone A,Electronics,Smart Phone
+000045,T-Shirt A,Fashion,Men Textile
+000018,Rondo A,Home & Living,Kitchen
+000036,Vinyl A,Music,Vinyl
+000031,Sail B,Sport & Outdoor,Water Sports
+000018,Rondo A,Home & Living,Kitchen
+000043,Denim A,Fashion,Men Textile
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000006,TV A,Electronics,TV
+000036,Vinyl A,Music,Vinyl
+000046,Trousers A,Fashion,Women Textile
+000014,Flowers A,Home & Living,Decoration
+000035,Magazine A,Book,Magazine
+000033,Book A,Book,Book
+000050,Backpack A,Fashion,Bags
+000010,Display A,Electronics,Display
+000035,Magazine A,Book,Magazine
+000038,CD A,Music,CD
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000043,Denim A,Fashion,Men Textile
+000008,TV C,Electronics,TV
+000022,Lipstick A,Cosmetics,Makeup
+000021,Parfume B,Cosmetics,Parfume
+000005,Phone B,Electronics,Smart Phone
+000008,TV C,Electronics,TV
+000041,Tire B,Automotive,Tires
+000018,Rondo A,Home & Living,Kitchen
+000049,Shoes A,Fashion,Women Textile
+000005,Phone B,Electronics,Smart Phone
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000013,Cinema Display A,Electronics,Display
+000028,Running Belt A,Sport & Outdoor,Fitness
+000028,Running Belt A,Sport & Outdoor,Fitness
+000043,Denim A,Fashion,Men Textile
+000015,Coach A,Home & Living,Furniture
+000015,Coach A,Home & Living,Furniture
+000026,Tent B,Sport & Outdoor,Outdoor
+000017,Bed A,Home & Living,Furniture
+000011,Display B,Electronics,Display
+000003,Monitor A,Electronics,Computer
+000012,Alarm A,Electronics,Home Appliance
+000011,Display B,Electronics,Display
+000013,Cinema Display A,Electronics,Display
+000015,Coach A,Home & Living,Furniture
+000030,Sail A,Sport & Outdoor,Water Sports
+000028,Running Belt A,Sport & Outdoor,Fitness
+000022,Lipstick A,Cosmetics,Makeup
+000046,Trousers A,Fashion,Women Textile
+000018,Rondo A,Home & Living,Kitchen
+000017,Bed A,Home & Living,Furniture
+000044,Shirt A,Fashion,Men Textile
+000050,Backpack A,Fashion,Bags
+000039,Top Box A,Automotive,Accesories
+000045,T-Shirt A,Fashion,Men Textile
+000042,Car Tape A,Automotive,Sound Systems
+000048,Socks A,Fashion,Women Textile
+000045,T-Shirt A,Fashion,Men Textile
+000042,Car Tape A,Automotive,Sound Systems
+000005,Phone B,Electronics,Smart Phone
+000014,Flowers A,Home & Living,Decoration
+000003,Monitor A,Electronics,Computer
+000039,Top Box A,Automotive,Accesories
+000046,Trousers A,Fashion,Women Textile
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000036,Vinyl A,Music,Vinyl
+000015,Coach A,Home & Living,Furniture
+000020,Parfume A,Cosmetics,Parfume
+000044,Shirt A,Fashion,Men Textile
+000003,Monitor A,Electronics,Computer
+000001,Laptop A,Electronics,Computer
+000021,Parfume B,Cosmetics,Parfume
+000010,Display A,Electronics,Display
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000043,Denim A,Fashion,Men Textile
+000016,Dinner Table A,Home & Living,Furniture
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000042,Car Tape A,Automotive,Sound Systems
+000049,Shoes A,Fashion,Women Textile
+000043,Denim A,Fashion,Men Textile
+000005,Phone B,Electronics,Smart Phone
+000029,Board A,Sport & Outdoor,Water Sports
+000022,Lipstick A,Cosmetics,Makeup
+000033,Book A,Book,Book
+000025,Tent A,Sport & Outdoor,Outdoor
+000029,Board A,Sport & Outdoor,Water Sports
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000031,Sail B,Sport & Outdoor,Water Sports
+000034,Book B,Book,Book
+000002,Desktop A,Electronics,Computer
+000040,Tire A,Automotive,Tires
+000016,Dinner Table A,Home & Living,Furniture
+000046,Trousers A,Fashion,Women Textile
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000033,Book A,Book,Book
+000018,Rondo A,Home & Living,Kitchen
+000017,Bed A,Home & Living,Furniture
+000041,Tire B,Automotive,Tires
+000007,TV B,Electronics,TV
+000012,Alarm A,Electronics,Home Appliance
+000009,Speaker A,Electronics,Sound
+000031,Sail B,Sport & Outdoor,Water Sports
+000016,Dinner Table A,Home & Living,Furniture
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000003,Monitor A,Electronics,Computer
+000036,Vinyl A,Music,Vinyl
+000018,Rondo A,Home & Living,Kitchen
+000033,Book A,Book,Book
+000015,Coach A,Home & Living,Furniture
+000043,Denim A,Fashion,Men Textile
+000037,DVD A,Music,DVD
+000037,DVD A,Music,DVD
+000030,Sail A,Sport & Outdoor,Water Sports
+000045,T-Shirt A,Fashion,Men Textile
+000035,Magazine A,Book,Magazine
+000013,Cinema Display A,Electronics,Display
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000031,Sail B,Sport & Outdoor,Water Sports
+000036,Vinyl A,Music,Vinyl
+000029,Board A,Sport & Outdoor,Water Sports
+000003,Monitor A,Electronics,Computer
+000030,Sail A,Sport & Outdoor,Water Sports
+000040,Tire A,Automotive,Tires
+000010,Display A,Electronics,Display
+000050,Backpack A,Fashion,Bags
+000037,DVD A,Music,DVD
+000009,Speaker A,Electronics,Sound
+000026,Tent B,Sport & Outdoor,Outdoor
+000014,Flowers A,Home & Living,Decoration
+000039,Top Box A,Automotive,Accesories
+000049,Shoes A,Fashion,Women Textile
+000034,Book B,Book,Book
+000018,Rondo A,Home & Living,Kitchen
+000015,Coach A,Home & Living,Furniture
+000008,TV C,Electronics,TV
+000010,Display A,Electronics,Display
+000016,Dinner Table A,Home & Living,Furniture
+000004,Phone A,Electronics,Smart Phone
+000049,Shoes A,Fashion,Women Textile
+000050,Backpack A,Fashion,Bags
+000003,Monitor A,Electronics,Computer
+000002,Desktop A,Electronics,Computer
+000022,Lipstick A,Cosmetics,Makeup
+000029,Board A,Sport & Outdoor,Water Sports
+000036,Vinyl A,Music,Vinyl
+000028,Running Belt A,Sport & Outdoor,Fitness
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000044,Shirt A,Fashion,Men Textile
+000031,Sail B,Sport & Outdoor,Water Sports
+000020,Parfume A,Cosmetics,Parfume
+000004,Phone A,Electronics,Smart Phone
+000037,DVD A,Music,DVD
+000022,Lipstick A,Cosmetics,Makeup
+000020,Parfume A,Cosmetics,Parfume
+000031,Sail B,Sport & Outdoor,Water Sports
+000017,Bed A,Home & Living,Furniture
+000029,Board A,Sport & Outdoor,Water Sports
+000037,DVD A,Music,DVD
+000036,Vinyl A,Music,Vinyl
+000005,Phone B,Electronics,Smart Phone
+000008,TV C,Electronics,TV
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000007,TV B,Electronics,TV
+000035,Magazine A,Book,Magazine
+000049,Shoes A,Fashion,Women Textile
+000029,Board A,Sport & Outdoor,Water Sports
+000042,Car Tape A,Automotive,Sound Systems
+000030,Sail A,Sport & Outdoor,Water Sports
+000042,Car Tape A,Automotive,Sound Systems
+000021,Parfume B,Cosmetics,Parfume
+000033,Book A,Book,Book
+000046,Trousers A,Fashion,Women Textile
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000042,Car Tape A,Automotive,Sound Systems
+000038,CD A,Music,CD
+000049,Shoes A,Fashion,Women Textile
+000045,T-Shirt A,Fashion,Men Textile
+000041,Tire B,Automotive,Tires
+000039,Top Box A,Automotive,Accesories
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000014,Flowers A,Home & Living,Decoration
+000033,Book A,Book,Book
+000036,Vinyl A,Music,Vinyl
+000011,Display B,Electronics,Display
+000009,Speaker A,Electronics,Sound
+000017,Bed A,Home & Living,Furniture
+000011,Display B,Electronics,Display
+000039,Top Box A,Automotive,Accesories
+000043,Denim A,Fashion,Men Textile
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000003,Monitor A,Electronics,Computer
+000045,T-Shirt A,Fashion,Men Textile
+000002,Desktop A,Electronics,Computer
+000038,CD A,Music,CD
+000007,TV B,Electronics,TV
+000011,Display B,Electronics,Display
+000045,T-Shirt A,Fashion,Men Textile
+000021,Parfume B,Cosmetics,Parfume
+000008,TV C,Electronics,TV
+000040,Tire A,Automotive,Tires
+000040,Tire A,Automotive,Tires
+000018,Rondo A,Home & Living,Kitchen
+000007,TV B,Electronics,TV
+000008,TV C,Electronics,TV
+000021,Parfume B,Cosmetics,Parfume
+000010,Display A,Electronics,Display
+000049,Shoes A,Fashion,Women Textile
+000031,Sail B,Sport & Outdoor,Water Sports
+000007,TV B,Electronics,TV
+000025,Tent A,Sport & Outdoor,Outdoor
+000042,Car Tape A,Automotive,Sound Systems
+000001,Laptop A,Electronics,Computer
+000025,Tent A,Sport & Outdoor,Outdoor
+000013,Cinema Display A,Electronics,Display
+000020,Parfume A,Cosmetics,Parfume
+000049,Shoes A,Fashion,Women Textile
+000005,Phone B,Electronics,Smart Phone
+000046,Trousers A,Fashion,Women Textile
+000035,Magazine A,Book,Magazine
+000014,Flowers A,Home & Living,Decoration
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000006,TV A,Electronics,TV
+000037,DVD A,Music,DVD
+000040,Tire A,Automotive,Tires
+000015,Coach A,Home & Living,Furniture
+000009,Speaker A,Electronics,Sound
+000008,TV C,Electronics,TV
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000029,Board A,Sport & Outdoor,Water Sports
+000050,Backpack A,Fashion,Bags
+000020,Parfume A,Cosmetics,Parfume
+000020,Parfume A,Cosmetics,Parfume
+000036,Vinyl A,Music,Vinyl
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000019,Soap A,Home & Living,Bathroom
+000007,TV B,Electronics,TV
+000036,Vinyl A,Music,Vinyl
+000035,Magazine A,Book,Magazine
+000036,Vinyl A,Music,Vinyl
+000047,Shirt A,Fashion,Women Textile
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000046,Trousers A,Fashion,Women Textile
+000017,Bed A,Home & Living,Furniture
+000048,Socks A,Fashion,Women Textile
+000049,Shoes A,Fashion,Women Textile
+000029,Board A,Sport & Outdoor,Water Sports
+000010,Display A,Electronics,Display
+000034,Book B,Book,Book
+000025,Tent A,Sport & Outdoor,Outdoor
+000016,Dinner Table A,Home & Living,Furniture
+000007,TV B,Electronics,TV
+000049,Shoes A,Fashion,Women Textile
+000002,Desktop A,Electronics,Computer
+000020,Parfume A,Cosmetics,Parfume
+000037,DVD A,Music,DVD
+000038,CD A,Music,CD
+000047,Shirt A,Fashion,Women Textile
+000026,Tent B,Sport & Outdoor,Outdoor
+000045,T-Shirt A,Fashion,Men Textile
+000002,Desktop A,Electronics,Computer
+000046,Trousers A,Fashion,Women Textile
+000037,DVD A,Music,DVD
+000042,Car Tape A,Automotive,Sound Systems
+000008,TV C,Electronics,TV
+000041,Tire B,Automotive,Tires
+000025,Tent A,Sport & Outdoor,Outdoor
+000040,Tire A,Automotive,Tires
+000025,Tent A,Sport & Outdoor,Outdoor
+000028,Running Belt A,Sport & Outdoor,Fitness
+000010,Display A,Electronics,Display
+000047,Shirt A,Fashion,Women Textile
+000005,Phone B,Electronics,Smart Phone
+000026,Tent B,Sport & Outdoor,Outdoor
+000002,Desktop A,Electronics,Computer
+000037,DVD A,Music,DVD
+000046,Trousers A,Fashion,Women Textile
+000013,Cinema Display A,Electronics,Display
+000010,Display A,Electronics,Display
+000017,Bed A,Home & Living,Furniture
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000013,Cinema Display A,Electronics,Display
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000029,Board A,Sport & Outdoor,Water Sports
+000047,Shirt A,Fashion,Women Textile
+000008,TV C,Electronics,TV
+000012,Alarm A,Electronics,Home Appliance
+000034,Book B,Book,Book
+000019,Soap A,Home & Living,Bathroom
+000017,Bed A,Home & Living,Furniture
+000030,Sail A,Sport & Outdoor,Water Sports
+000021,Parfume B,Cosmetics,Parfume
+000046,Trousers A,Fashion,Women Textile
+000034,Book B,Book,Book
+000045,T-Shirt A,Fashion,Men Textile
+000050,Backpack A,Fashion,Bags
+000043,Denim A,Fashion,Men Textile
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000022,Lipstick A,Cosmetics,Makeup
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000038,CD A,Music,CD
+000039,Top Box A,Automotive,Accesories
+000026,Tent B,Sport & Outdoor,Outdoor
+000001,Laptop A,Electronics,Computer
+000001,Laptop A,Electronics,Computer
+000031,Sail B,Sport & Outdoor,Water Sports
+000022,Lipstick A,Cosmetics,Makeup
+000016,Dinner Table A,Home & Living,Furniture
+000034,Book B,Book,Book
+000006,TV A,Electronics,TV
+000007,TV B,Electronics,TV
+000004,Phone A,Electronics,Smart Phone
+000002,Desktop A,Electronics,Computer
+000037,DVD A,Music,DVD
+000005,Phone B,Electronics,Smart Phone
+000048,Socks A,Fashion,Women Textile
+000040,Tire A,Automotive,Tires
+000022,Lipstick A,Cosmetics,Makeup
+000007,TV B,Electronics,TV
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000025,Tent A,Sport & Outdoor,Outdoor
+000042,Car Tape A,Automotive,Sound Systems
+000038,CD A,Music,CD
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000020,Parfume A,Cosmetics,Parfume
+000017,Bed A,Home & Living,Furniture
+000003,Monitor A,Electronics,Computer
+000026,Tent B,Sport & Outdoor,Outdoor
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000045,T-Shirt A,Fashion,Men Textile
+000026,Tent B,Sport & Outdoor,Outdoor
+000011,Display B,Electronics,Display
+000039,Top Box A,Automotive,Accesories
+000015,Coach A,Home & Living,Furniture
+000033,Book A,Book,Book
+000049,Shoes A,Fashion,Women Textile
+000038,CD A,Music,CD
+000018,Rondo A,Home & Living,Kitchen
+000036,Vinyl A,Music,Vinyl
+000015,Coach A,Home & Living,Furniture
+000047,Shirt A,Fashion,Women Textile
+000025,Tent A,Sport & Outdoor,Outdoor
+000019,Soap A,Home & Living,Bathroom
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000014,Flowers A,Home & Living,Decoration
+000021,Parfume B,Cosmetics,Parfume
+000029,Board A,Sport & Outdoor,Water Sports
+000041,Tire B,Automotive,Tires
+000039,Top Box A,Automotive,Accesories
+000047,Shirt A,Fashion,Women Textile
+000018,Rondo A,Home & Living,Kitchen
+000017,Bed A,Home & Living,Furniture
+000041,Tire B,Automotive,Tires
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000020,Parfume A,Cosmetics,Parfume
+000033,Book A,Book,Book
+000007,TV B,Electronics,TV
+000025,Tent A,Sport & Outdoor,Outdoor
+000001,Laptop A,Electronics,Computer
+000046,Trousers A,Fashion,Women Textile
+000001,Laptop A,Electronics,Computer
+000049,Shoes A,Fashion,Women Textile
+000036,Vinyl A,Music,Vinyl
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000047,Shirt A,Fashion,Women Textile
+000010,Display A,Electronics,Display
+000049,Shoes A,Fashion,Women Textile
+000025,Tent A,Sport & Outdoor,Outdoor
+000045,T-Shirt A,Fashion,Men Textile
+000025,Tent A,Sport & Outdoor,Outdoor
+000038,CD A,Music,CD
+000004,Phone A,Electronics,Smart Phone
+000042,Car Tape A,Automotive,Sound Systems
+000013,Cinema Display A,Electronics,Display
+000013,Cinema Display A,Electronics,Display
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000018,Rondo A,Home & Living,Kitchen
+000040,Tire A,Automotive,Tires
+000040,Tire A,Automotive,Tires
+000012,Alarm A,Electronics,Home Appliance
+000038,CD A,Music,CD
+000040,Tire A,Automotive,Tires
+000036,Vinyl A,Music,Vinyl
+000017,Bed A,Home & Living,Furniture
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000009,Speaker A,Electronics,Sound
+000043,Denim A,Fashion,Men Textile
+000001,Laptop A,Electronics,Computer
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000020,Parfume A,Cosmetics,Parfume
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000049,Shoes A,Fashion,Women Textile
+000009,Speaker A,Electronics,Sound
+000043,Denim A,Fashion,Men Textile
+000040,Tire A,Automotive,Tires
+000040,Tire A,Automotive,Tires
+000012,Alarm A,Electronics,Home Appliance
+000004,Phone A,Electronics,Smart Phone
+000012,Alarm A,Electronics,Home Appliance
+000006,TV A,Electronics,TV
+000013,Cinema Display A,Electronics,Display
+000047,Shirt A,Fashion,Women Textile
+000025,Tent A,Sport & Outdoor,Outdoor
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000014,Flowers A,Home & Living,Decoration
+000005,Phone B,Electronics,Smart Phone
+000031,Sail B,Sport & Outdoor,Water Sports
+000008,TV C,Electronics,TV
+000009,Speaker A,Electronics,Sound
+000040,Tire A,Automotive,Tires
+000004,Phone A,Electronics,Smart Phone
+000042,Car Tape A,Automotive,Sound Systems
+000021,Parfume B,Cosmetics,Parfume
+000009,Speaker A,Electronics,Sound
+000038,CD A,Music,CD
+000012,Alarm A,Electronics,Home Appliance
+000005,Phone B,Electronics,Smart Phone
+000026,Tent B,Sport & Outdoor,Outdoor
+000033,Book A,Book,Book
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000005,Phone B,Electronics,Smart Phone
+000030,Sail A,Sport & Outdoor,Water Sports
+000026,Tent B,Sport & Outdoor,Outdoor
+000049,Shoes A,Fashion,Women Textile
+000025,Tent A,Sport & Outdoor,Outdoor
+000041,Tire B,Automotive,Tires
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000028,Running Belt A,Sport & Outdoor,Fitness
+000021,Parfume B,Cosmetics,Parfume
+000049,Shoes A,Fashion,Women Textile
+000014,Flowers A,Home & Living,Decoration
+000018,Rondo A,Home & Living,Kitchen
+000003,Monitor A,Electronics,Computer
+000005,Phone B,Electronics,Smart Phone
+000036,Vinyl A,Music,Vinyl
+000050,Backpack A,Fashion,Bags
+000030,Sail A,Sport & Outdoor,Water Sports
+000011,Display B,Electronics,Display
+000036,Vinyl A,Music,Vinyl
+000040,Tire A,Automotive,Tires
+000007,TV B,Electronics,TV
+000033,Book A,Book,Book
+000034,Book B,Book,Book
+000040,Tire A,Automotive,Tires
+000012,Alarm A,Electronics,Home Appliance
+000027,Mountain Bike A,Sport & Outdoor,Outdoor
+000005,Phone B,Electronics,Smart Phone
+000007,TV B,Electronics,TV
+000007,TV B,Electronics,TV
+000012,Alarm A,Electronics,Home Appliance
+000012,Alarm A,Electronics,Home Appliance
+000012,Alarm A,Electronics,Home Appliance
+000036,Vinyl A,Music,Vinyl
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000030,Sail A,Sport & Outdoor,Water Sports
+000005,Phone B,Electronics,Smart Phone
+000045,T-Shirt A,Fashion,Men Textile
+000044,Shirt A,Fashion,Men Textile
+000003,Monitor A,Electronics,Computer
+000007,TV B,Electronics,TV
+000050,Backpack A,Fashion,Bags
+000021,Parfume B,Cosmetics,Parfume
+000015,Coach A,Home & Living,Furniture
+000010,Display A,Electronics,Display
+000004,Phone A,Electronics,Smart Phone
+000028,Running Belt A,Sport & Outdoor,Fitness
+000004,Phone A,Electronics,Smart Phone
+000028,Running Belt A,Sport & Outdoor,Fitness
+000001,Laptop A,Electronics,Computer
+000001,Laptop A,Electronics,Computer
+000018,Rondo A,Home & Living,Kitchen
+000026,Tent B,Sport & Outdoor,Outdoor
+000043,Denim A,Fashion,Men Textile
+000012,Alarm A,Electronics,Home Appliance
+000026,Tent B,Sport & Outdoor,Outdoor
+000046,Trousers A,Fashion,Women Textile
+000029,Board A,Sport & Outdoor,Water Sports
+000036,Vinyl A,Music,Vinyl
+000008,TV C,Electronics,TV
+000047,Shirt A,Fashion,Women Textile
+000029,Board A,Sport & Outdoor,Water Sports
+000015,Coach A,Home & Living,Furniture
+000038,CD A,Music,CD
+000006,TV A,Electronics,TV
+000009,Speaker A,Electronics,Sound
+000009,Speaker A,Electronics,Sound
+000047,Shirt A,Fashion,Women Textile
+000040,Tire A,Automotive,Tires
+000031,Sail B,Sport & Outdoor,Water Sports
+000037,DVD A,Music,DVD
+000043,Denim A,Fashion,Men Textile
+000048,Socks A,Fashion,Women Textile
+000038,CD A,Music,CD
+000041,Tire B,Automotive,Tires
+000017,Bed A,Home & Living,Furniture
+000044,Shirt A,Fashion,Men Textile
+000014,Flowers A,Home & Living,Decoration
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000013,Cinema Display A,Electronics,Display
+000049,Shoes A,Fashion,Women Textile
+000011,Display B,Electronics,Display
+000011,Display B,Electronics,Display
+000033,Book A,Book,Book
+000050,Backpack A,Fashion,Bags
+000032,Boom A,Sport & Outdoor,Yacht & Boat
+000036,Vinyl A,Music,Vinyl
+000041,Tire B,Automotive,Tires
+000040,Tire A,Automotive,Tires
+000016,Dinner Table A,Home & Living,Furniture
+000004,Phone A,Electronics,Smart Phone
+000033,Book A,Book,Book
+000015,Coach A,Home & Living,Furniture
+000045,T-Shirt A,Fashion,Men Textile
+000033,Book A,Book,Book
+000040,Tire A,Automotive,Tires
+000010,Display A,Electronics,Display
+000049,Shoes A,Fashion,Women Textile
+000041,Tire B,Automotive,Tires
+000044,Shirt A,Fashion,Men Textile
+000020,Parfume A,Cosmetics,Parfume
+000011,Display B,Electronics,Display
+000001,Laptop A,Electronics,Computer
+000022,Lipstick A,Cosmetics,Makeup
+000006,TV A,Electronics,TV
+000036,Vinyl A,Music,Vinyl
+000040,Tire A,Automotive,Tires
+000022,Lipstick A,Cosmetics,Makeup
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000008,TV C,Electronics,TV
+000021,Parfume B,Cosmetics,Parfume
+000042,Car Tape A,Automotive,Sound Systems
+000026,Tent B,Sport & Outdoor,Outdoor
+000044,Shirt A,Fashion,Men Textile
+000020,Parfume A,Cosmetics,Parfume
+000044,Shirt A,Fashion,Men Textile
+000050,Backpack A,Fashion,Bags
+000023,Shower Gel A,Cosmetics,Women Healthcare
+000024,Aftershave Balsam A,Cosmetics,Men HealthCare
+000012,Alarm A,Electronics,Home Appliance
+000020,Parfume A,Cosmetics,Parfume

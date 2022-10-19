@@ -1,0 +1,5 @@
+target
+target/*
+output/*
+.idea
+.DS_store
