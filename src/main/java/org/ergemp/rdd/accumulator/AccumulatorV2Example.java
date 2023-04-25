@@ -42,6 +42,7 @@ public class AccumulatorV2Example {
 
         }
 
+        // Returns if this accumulator is zero value or not.
         @Override
         public boolean isZero() {
             if (myVector.size() > 0) {
@@ -86,5 +87,10 @@ public class AccumulatorV2Example {
         //copyAndReset
         //Creates a new copy of this accumulator, which is zero value. i.e. call isZero on the copy must return true.
         //assertion failed: copyAndReset must return a zero value copy
+
+        //reset
+        //Resets this accumulator, which is zero value.
     }
 }
+
+// reference: https://spark.apache.org/docs/latest/api/scala/org/apache/spark/util/AccumulatorV2.html
