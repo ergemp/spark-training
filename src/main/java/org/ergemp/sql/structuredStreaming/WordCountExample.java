@@ -49,7 +49,6 @@ public class WordCountExample {
 
         query.awaitTermination();
 
-
     }
 }
 
