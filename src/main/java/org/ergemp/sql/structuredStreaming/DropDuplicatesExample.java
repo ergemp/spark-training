@@ -14,7 +14,7 @@ public class DropDuplicatesExample {
 
         SparkSession spark = SparkSession
                 .builder()
-                .appName("WindowedWordCount")
+                .appName("DropDuplicatesExample")
                 .master("local")
                 .getOrCreate();
 
@@ -35,6 +35,24 @@ public class DropDuplicatesExample {
         lines
                 .withWatermark("eventTime", "10 seconds")
                 .dropDuplicates("guid", "eventTime");
+
+        /*
+        You can deduplicate records in data streams using a unique identifier in the events.
+        This is exactly same as deduplication on static using a unique identifier column.
+        The query will store the necessary amount of data from previous records such that it can filter duplicate records.
+        Similar to aggregations, you can use deduplication with or without watermarking.
+        */
+
+        /*
+        With watermark - If there is an upper bound on how late a duplicate record may arrive,
+        then you can define a watermark on an event time column and deduplicate using both the guid and the event time columns.
+        The query will use the watermark to remove old state data from past records that are not expected to get any duplicates any more.
+        This bounds the amount of the state the query has to maintain.
+
+        Without watermark - Since there are no bounds on when a duplicate record may arrive,
+        the query stores the data from all the past records as state.
+        */
+
 
     }
 }
