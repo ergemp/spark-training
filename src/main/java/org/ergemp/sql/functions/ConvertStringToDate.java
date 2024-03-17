@@ -44,9 +44,11 @@ public class ConvertStringToDate {
         spark.sql("select unix_timestamp(A, 'dd/MM/yyyy HH:mm:ss') from df").show(false);
         spark.sql("select to_date(cast(unix_timestamp(A, 'dd/MM/yyyy HH:mm:ss') as timestamp)) from df").show(false);
 
+        spark.sql("SELECT TO_DATE(CAST(UNIX_TIMESTAMP('08/26/2016', 'MM/dd/yyyy') AS TIMESTAMP)) AS newdate").show(false);
 
-        //SELECT TO_DATE(CAST(UNIX_TIMESTAMP('08/26/2016', 'MM/dd/yyyy') AS TIMESTAMP)) AS newdate"""
-
+        df
+                .withColumn("formatted_date", org.apache.spark.sql.functions.to_date(functions.col("A"),"dd/MM/yyyy HH:mm:ss"))
+                .show(false);
 
     }
 }
