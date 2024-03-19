@@ -1,4 +1,4 @@
-package org.ergemp.sql.functions;
+package org.ergemp.sql.functions.dateTime;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
