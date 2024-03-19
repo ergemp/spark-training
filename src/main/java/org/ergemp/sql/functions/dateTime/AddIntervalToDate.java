@@ -34,8 +34,6 @@ public class AddIntervalToDate {
         StructType structType = new StructType();
         structType = structType.add("col", DataTypes.StringType, false);
 
-        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-
         List<Row> nums = new ArrayList<Row>();
         nums.add(RowFactory.create("2019-07-01 12:01:19.101"));
         nums.add(RowFactory.create("2019-06-24 12:01:19.222"));
