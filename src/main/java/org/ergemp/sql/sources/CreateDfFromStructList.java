@@ -30,16 +30,16 @@ public class CreateDfFromStructList {
                 .getOrCreate();
 
         StructType structType = new StructType();
-        structType = structType.add("A", DataTypes.StringType, false);
-        structType = structType.add("B", DataTypes.StringType, false);
+        structType = structType.add("A", DataTypes.DoubleType, false);
 
         List<Row> nums = new ArrayList<Row>();
-        nums.add(RowFactory.create("value1", "value2"));
-        nums.add(RowFactory.create("value3", "value4"));
+        nums.add(RowFactory.create(173000000.0));
 
         Dataset<Row> df = spark.createDataFrame(nums, structType);
+        df.createOrReplaceTempView("df");
 
-        df.show(false);
+        spark.sql("select cast(cast(A as int) as string) from df").show(false);
+
 
     }
 }
