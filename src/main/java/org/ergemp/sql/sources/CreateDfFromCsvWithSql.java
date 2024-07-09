@@ -19,7 +19,7 @@ public class CreateDfFromCsvWithSql {
                 .master("local[2]")
                 .getOrCreate();
 
-        Dataset<Row> df = spark.sql("select * from csv.`file:///home/ergemp/IdeaProjects/spark-reference2/data/deneme100.csv` " );
+        Dataset<Row> df = spark.sql("select * from csv.`file:///Users/ergemp/IdeaProjects/project_other/spark-training/data/deneme100.csv` " );
         //Dataset<Row> df = spark.sql("select * from csv.`hdfs:///csv/file/dir/file.csv` " );
 
         df.printSchema();

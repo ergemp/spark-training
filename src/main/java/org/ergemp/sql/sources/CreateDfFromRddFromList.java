@@ -28,7 +28,8 @@ public class CreateDfFromRddFromList {
 
         // Generate Data
         List<StringWrapper> nums = new ArrayList<>();
-        nums.add(new StringWrapper("value1", "value2"));
+        nums.add(new StringWrapper("key1", "value1"));
+        nums.add(new StringWrapper("key2", "value2"));
 
         // Convert to RDD
         JavaRDD<StringWrapper> rdd = jsc.parallelize(nums);
