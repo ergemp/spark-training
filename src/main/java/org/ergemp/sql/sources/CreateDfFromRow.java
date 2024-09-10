@@ -22,7 +22,7 @@ public class CreateDfFromRow {
         // configure spark
         SparkSession spark = SparkSession
                 .builder()
-                .appName("CreateDfFromParquet")
+                .appName("CreateDfFromRow")
                 .master("local[2]")
                 .getOrCreate();
 
