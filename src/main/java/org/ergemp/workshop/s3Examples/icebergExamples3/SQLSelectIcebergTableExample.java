@@ -1,4 +1,4 @@
-package org.ergemp.workshop.s3Examples;
+package org.ergemp.workshop.s3Examples.icebergExamples3;
 
 import org.apache.spark.sql.SparkSession;
 

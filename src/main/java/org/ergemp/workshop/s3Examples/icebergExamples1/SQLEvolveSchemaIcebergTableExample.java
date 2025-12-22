@@ -1,0 +1,76 @@
+package org.ergemp.workshop.s3Examples.icebergExamples1;
+
+import org.apache.spark.sql.SparkSession;
+
+public class SQLEvolveSchemaIcebergTableExample {
+
+    public static void main(String[] args) {
+
+        SparkSession spark = SparkSession
+                .builder()
+                .master("local")
+                .appName("SQLCreateIcebergTableExample")
+
+                .config("spark.sql.extensions", "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions")
+
+                .config("spark.sql.catalog.iceberg","org.apache.iceberg.spark.SparkCatalog")
+                .config("spark.sql.catalog.iceberg.type","hadoop")
+                .config("spark.sql.catalog.iceberg.warehouse","s3a://warehouse/")
+
+                //.config("spark.sql.catalog.iceberg.io-impl", "org.apache.iceberg.aws.s3.S3FileIO")
+                //.config("spark.sql.catalog.demo.s3.endpoint", "http://192.168.56.2:9000")
+                //.config("spark.sql.defaultCatalog", "iceberg")
+
+                .config("spark.sql.catalogImplementation", "in-memory")
+                .config("spark.executor.heartbeatInterval", "300000")
+                .config("spark.network.timeout", "400000")
+
+                //.config("spark.sql.catalog.hive.uri","thrift://localhost:9083")
+
+                .config("spark.sql.warehouse.dir","s3a://warehouse/")
+                //.config("spark.sql.legacy.createHiveTableByDefault","true")
+
+                .config("fs.s3a.endpoint", "http://192.168.56.2:9000")
+                .config("fs.s3a.connection.timeout", 600000)
+                .config("fs.s3a.access.key", "minioadmin")
+                .config("fs.s3a.secret.key", "minioadmin")
+                .config("fs.s3a.impl","org.apache.hadoop.fs.s3a.S3AFileSystem")
+                .config("fs.s3a.aws.credentials.provider", "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider")
+
+                .config("fs.s3a.path.style.access", "true")
+                .config("fs.s3a.attempts.maximum", "1")
+                .config("fs.s3a.connection.establish.timeout", "5000")
+                .config("fs.s3a.connection.timeout", "10000")
+
+                //.config("spark.sql.extensions", "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions")
+
+                .getOrCreate();
+
+        spark.sql(" ALTER TABLE iceberg.datapoints SET TBLPROPERTIES ( " +
+                " 'write.spark.accept-any-schema' = 'true' ) ");
+
+        spark.sql("ALTER TABLE iceberg.datapoints\n" +
+                "  ADD COLUMNS (\n" +
+                "    source string\n" +
+                "  )");
+
+
+        /*
+        As an alternative to the ALTER statement, the table property can be set when the table is created.
+        For example, by updating the code from the Creating a Table section,
+        we can set this property removing the need for the ALTER statement used above:
+        */
+
+        // Write the empty DataFrame creating the IcerBerg table
+        // with a table property enabling schema merge support
+        // during write operations.
+        /*
+                df
+                .writeTo("local.df.data_points")
+                .tableProperty("write.spark.accept-any-schema", "true")
+                .using("iceberg")
+                .create()
+        */
+
+    }
+}
