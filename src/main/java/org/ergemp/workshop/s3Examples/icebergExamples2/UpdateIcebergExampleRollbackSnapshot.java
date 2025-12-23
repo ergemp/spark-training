@@ -2,13 +2,13 @@ package org.ergemp.workshop.s3Examples.icebergExamples2;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.apache.spark.sql.AnalysisException;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
-import org.apache.spark.sql.SaveMode;
 import org.apache.spark.sql.SparkSession;
 
-public class WriteAsIcebergExample {
-    public static void main(String[] args) {
+public class UpdateIcebergExampleRollbackSnapshot {
+    public static void main(String[] args) throws AnalysisException {
 
         Logger.getLogger("org").setLevel(Level.ERROR);
         Logger.getLogger("akka").setLevel(Level.OFF);
@@ -49,15 +49,41 @@ public class WriteAsIcebergExample {
 
                 .getOrCreate();
 
-                Dataset<Row> df = spark.read().option("header","true").csv("s3a://bucket1/2018_Yellow_Taxi_Trip_Data.csv");
-                df.write().mode("overwrite").saveAsTable("iceberg.taxis_large");
+                //Dataset<Row> df = spark.read().option("header","true").csv("s3a://bucket1/2018_Yellow_Taxi_Trip_Data.csv");
+                //df.write().mode("overwrite").saveAsTable("taxis_large");
 
-                //spark.sql("show schemas from default").show();
+                //spark.sql("show databases").show();
+                spark.catalog().listDatabases().show();
+                /*
+                +-------+----------------+----------------+
+                |   name|     description|     locationUri|
+                +-------+----------------+----------------+
+                |default|default database|s3a://warehouse/|
+                +-------+----------------+----------------+
+                */
 
-                //spark.read().format("iceberg").load("s3a://warehouse/taxis_large");
-                Dataset<Row> count_df = spark.sql("SELECT COUNT(*) AS cnt FROM iceberg.taxis_large");
-                Long total_rows_count = count_df.first().getLong(0);
-                Logger.getLogger("tt").info("Total Rows for NYC Taxi Data: " + total_rows_count + " ");
+                spark.catalog().listTables().show();
+                /*
+                +----+--------+-----------+---------+-----------+
+                |name|database|description|tableType|isTemporary|
+                +----+--------+-----------+---------+-----------+
+                +----+--------+-----------+---------+-----------+
+                */
+
+        // Partition table based on "VendorID" column
+        //Logger.getLogger("tt").info("Partitioning table based on VendorID column...");
+        //spark.sql("ALTER TABLE iceberg.taxis_large ADD PARTITION FIELD VendorID");
+
+        // Time travel to initial snapshot
+        Logger.getLogger("tt").info("Time Travel to initial snapshot...");
+        //spark.sql("SELECT snapshot_id FROM iceberg.taxis_large.history LIMIT 1").show();
+        spark.sql("CALL demo.system.rollback_to_snapshot('iceberg.taxis_large', 2697014821662818592)");
+        // ANTLR Tool version 4.9.3 used for code generation does not match the current runtime version 4.8ANTLR
+        // Runtime version 4.9.3 used for parser compilation does not match the current runtime version 4.8ANTLR
+        // Tool version 4.9.3 used for code generation does not match the current runtime version 4.8ANTLR
+        // Runtime version 4.9.3 used for parser compilation does not match the current runtime version 4.8
+        // Exception in thread "main" org.apache.spark.sql.AnalysisException: Cannot use catalog spark_catalog: not a ProcedureCatalog
+
 
     }
 }

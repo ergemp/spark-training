@@ -7,7 +7,7 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 
-public class ReadFromIcebergExample {
+public class UpdateIcebergExamplePartitioning {
     public static void main(String[] args) throws AnalysisException {
 
         Logger.getLogger("org").setLevel(Level.ERROR);
@@ -70,15 +70,58 @@ public class ReadFromIcebergExample {
                 +----+--------+-----------+---------+-----------+
                 */
 
-                //spark.sql("use iceberg");
-                //spark.read().format("iceberg").load("s3a://warehouse/taxis_large/");
-                Dataset<Row> count_df = spark.sql("SELECT COUNT(*) AS cnt FROM iceberg.taxis_large");
+        // Partition table based on "VendorID" column
+        //Logger.getLogger("tt").info("Partitioning table based on VendorID column...");
+        //spark.sql("ALTER TABLE iceberg.taxis_large ADD PARTITION FIELD VendorID");
 
-                count_df.show(false);
+        // Query Metadata tables like snapshot, files, history
+        Logger.getLogger("tt").info("Querying Snapshot table...");
+        Dataset<Row> snapshots_df = spark.sql("SELECT * FROM iceberg.taxis_large.snapshots ORDER BY committed_at");
+        snapshots_df.show();  // shows all the snapshots in ascending order of committed_at column
 
-                Long total_rows_count = count_df.first().getLong(0);
-                Logger.getLogger("tt").info("Total Rows for NYC Taxi Data: " + total_rows_count + " ");
+        Logger.getLogger("tt").info("Querying Files table...");
+        Dataset<Row> files_count_df = spark.sql("SELECT COUNT(*) AS cnt FROM iceberg.taxis_large.files");
+        Long total_files_count = files_count_df.first().getLong(0);
+        Logger.getLogger("tt").info("Total Data Files for NYC Taxi Data: " + total_files_count);
 
+        spark.sql("SELECT file_path, " +
+                    " file_format, " +
+                    " record_count, " +
+                    " null_value_counts, " +
+                    " lower_bounds, "+
+                    " upper_bounds " +
+                    " FROM iceberg.taxis_large.files LIMIT 1").show();
+
+        // Query history table
+        Logger.getLogger("tt").info("Querying History table...");
+        Dataset<Row> hist_df = spark.sql("SELECT * FROM iceberg.taxis_large.history");
+        hist_df.show();
+
+        // Time travel to initial snapshot
+        Logger.getLogger("tt").info("Time Travel to initial snapshot...");
+        Dataset<Row> snap_df = spark.sql("SELECT snapshot_id FROM iceberg.taxis_large.history LIMIT 1");
+        // spark.sql("CALL demo.system.rollback_to_snapshot('iceberg.taxis_large', " + snap_df.first().getAs("snapshot_id").toString() + ")");
+
+        // Query the table to see the results
+        Dataset<Row> res_df = spark.sql("SELECT VendorID " +
+                    " ,tpep_pickup_datetime " +
+                    " ,tpep_dropoff_datetime " +
+                    " ,fare " +
+                    " ,distance " +
+                    " ,fare_per_distance " +
+                    " FROM iceberg.taxis_large LIMIT 15");
+
+        res_df.show();
+
+        // Query history table
+        Logger.getLogger("tt").info("Querying History table...");
+        hist_df = spark.sql("SELECT * FROM iceberg.taxis_large.history");
+        hist_df.show();  // 1 new row
+
+        // Query table row count
+        Dataset<Row> count_df = spark.sql("SELECT COUNT(*) AS cnt FROM iceberg.taxis_large");
+        Long total_rows_count = count_df.first().getLong(0);
+        Logger.getLogger("tt").info("Total Rows for NYC Taxi Data after time travel: " + total_rows_count);
 
     }
 }

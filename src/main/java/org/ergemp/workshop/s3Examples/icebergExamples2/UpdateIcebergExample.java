@@ -7,7 +7,7 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 
-public class ReadFromIcebergExample {
+public class UpdateIcebergExample {
     public static void main(String[] args) throws AnalysisException {
 
         Logger.getLogger("org").setLevel(Level.ERROR);
@@ -70,15 +70,22 @@ public class ReadFromIcebergExample {
                 +----+--------+-----------+---------+-----------+
                 */
 
-                //spark.sql("use iceberg");
-                //spark.read().format("iceberg").load("s3a://warehouse/taxis_large/");
-                Dataset<Row> count_df = spark.sql("SELECT COUNT(*) AS cnt FROM iceberg.taxis_large");
+                // Populate the new column "fare_per_distance"
+                Logger.getLogger("tt").info("Populating fare_per_distance column...");
+                spark.sql("UPDATE iceberg.taxis_large SET fare_per_distance = fare/distance");
 
-                count_df.show(false);
-
-                Long total_rows_count = count_df.first().getLong(0);
-                Logger.getLogger("tt").info("Total Rows for NYC Taxi Data: " + total_rows_count + " ");
-
+                // Check the snapshots available
+                Logger.getLogger("tt").info("Checking Snapshots");
+                Dataset<Row> snap_df = spark.sql("SELECT * FROM iceberg.taxis_large.snapshots");
+                snap_df.show();  //prints all the available snapshots (2 now) since previous operation will create a new snapshot
+                /*
+                +--------------------+-------------------+-------------------+---------+--------------------+--------------------+
+                |        committed_at|        snapshot_id|          parent_id|operation|       manifest_list|             summary|
+                +--------------------+-------------------+-------------------+---------+--------------------+--------------------+
+                |2025-12-22 14:04:...|2697014821662818592|               null|   append|s3a://warehouse/t...|{spark.app.id -> ...|
+                |2025-12-23 11:17:...|4254276054228848866|2697014821662818592|overwrite|s3a://warehouse/t...|{spark.app.id -> ...|
+                +--------------------+-------------------+-------------------+---------+--------------------+--------------------+
+                */
 
     }
 }

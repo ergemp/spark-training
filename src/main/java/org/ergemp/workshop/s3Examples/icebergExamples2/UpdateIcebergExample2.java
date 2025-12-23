@@ -2,13 +2,13 @@ package org.ergemp.workshop.s3Examples.icebergExamples2;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.apache.spark.sql.AnalysisException;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
-import org.apache.spark.sql.SaveMode;
 import org.apache.spark.sql.SparkSession;
 
-public class WriteAsIcebergExample {
-    public static void main(String[] args) {
+public class UpdateIcebergExample2 {
+    public static void main(String[] args) throws AnalysisException {
 
         Logger.getLogger("org").setLevel(Level.ERROR);
         Logger.getLogger("akka").setLevel(Level.OFF);
@@ -49,15 +49,48 @@ public class WriteAsIcebergExample {
 
                 .getOrCreate();
 
-                Dataset<Row> df = spark.read().option("header","true").csv("s3a://bucket1/2018_Yellow_Taxi_Trip_Data.csv");
-                df.write().mode("overwrite").saveAsTable("iceberg.taxis_large");
+                //Dataset<Row> df = spark.read().option("header","true").csv("s3a://bucket1/2018_Yellow_Taxi_Trip_Data.csv");
+                //df.write().mode("overwrite").saveAsTable("taxis_large");
 
-                //spark.sql("show schemas from default").show();
+                //spark.sql("show databases").show();
+                spark.catalog().listDatabases().show();
+                /*
+                +-------+----------------+----------------+
+                |   name|     description|     locationUri|
+                +-------+----------------+----------------+
+                |default|default database|s3a://warehouse/|
+                +-------+----------------+----------------+
+                */
 
-                //spark.read().format("iceberg").load("s3a://warehouse/taxis_large");
+                spark.catalog().listTables().show();
+                /*
+                +----+--------+-----------+---------+-----------+
+                |name|database|description|tableType|isTemporary|
+                +----+--------+-----------+---------+-----------+
+                +----+--------+-----------+---------+-----------+
+                */
+
+                Dataset<Row> res_df = spark.sql("SELECT VendorID " +
+                            " ,tpep_pickup_datetime " +
+                            " ,tpep_dropoff_datetime " +
+                            " ,fare " +
+                            " ,distance " +
+                            " ,fare_per_distance " +
+                            " FROM iceberg.taxis_large LIMIT 15") ;
+                res_df.show();
+
+                Logger.getLogger("tt").info("Deleting rows from fare_per_distance column...");
+                spark.sql("DELETE FROM iceberg.taxis_large WHERE fare_per_distance > 4.0 OR distance > 2.0");
+                spark.sql("DELETE FROM iceberg.taxis_large WHERE fare_per_distance IS NULL");
+
+                Logger.getLogger("tt").info("Checking snapshots...");
+                Dataset<Row> snap_df = spark.sql("SELECT * FROM iceberg.taxis_large.snapshots");
+                snap_df.show();  // prints all the available snapshots (4 now) since previous operations will create 2 new snapshots
+
+                // Query table row count
                 Dataset<Row> count_df = spark.sql("SELECT COUNT(*) AS cnt FROM iceberg.taxis_large");
                 Long total_rows_count = count_df.first().getLong(0);
-                Logger.getLogger("tt").info("Total Rows for NYC Taxi Data: " + total_rows_count + " ");
+                Logger.getLogger("tt").info("Total Rows for NYC Taxi Data after delete operations: " + total_rows_count );
 
     }
 }
