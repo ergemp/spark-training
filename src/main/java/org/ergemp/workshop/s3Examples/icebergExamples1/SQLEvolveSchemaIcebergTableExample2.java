@@ -55,7 +55,7 @@ public class SQLEvolveSchemaIcebergTableExample2 {
         we can set this property removing the need for the ALTER statement used above:
         */
 
-        // Write the empty DataFrame creating the IcerBerg table
+        // Write the empty DataFrame creating the IceBerg table
         // with a table property enabling schema merge support
         // during write operations.
         /*
